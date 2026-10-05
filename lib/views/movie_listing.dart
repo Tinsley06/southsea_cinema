@@ -16,7 +16,8 @@ class MovieListing extends StatelessWidget {
       ),
       drawer: const NavDrawer(),
       body: Container(
-        child: Row(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text("The Fast and the Furious (2001)",
                 style: TextStyle(
@@ -31,6 +32,12 @@ class MovieListing extends StatelessWidget {
                 height: 1.5,
               ),
             ),
+            const SizedBox(height: 24),
+            Row(
+              children: const [
+                //widgets
+              ],
+            )
           ],
         ),
       ),
