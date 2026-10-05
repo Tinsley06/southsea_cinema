@@ -15,7 +15,25 @@ class MovieListing extends StatelessWidget {
         elevation: 0,
       ),
       drawer: const NavDrawer(),
-      body: const SizedBox.shrink(),
+      body: Container(
+        child: Row(
+          children: [
+            const Text("The Fast and the Furious (2001)",
+                style: TextStyle(
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold,
+                )),
+            const Text(
+              "Fast & Furious is an action-packed film following street racer Brian O'Conner as he becomes involved with an undercover investigation.",
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.white,
+                height: 1.5,
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
