@@ -45,7 +45,7 @@ class _MovieListingState extends State<MovieListing> {
               "Fast & Furious is an action-packed film following street racer Brian O'Conner as he becomes involved with an undercover investigation.",
               style: TextStyle(
                 fontSize: 16,
-                color: Colors.white,
+                color: Color.fromARGB(255, 255, 0, 0),
                 height: 1.5,
               ),
             ),
@@ -73,7 +73,6 @@ class _MovieListingState extends State<MovieListing> {
                     DropdownMenuEntry(value: 2, label: '2'),
                     DropdownMenuEntry(value: 3, label: '3'),
                     DropdownMenuEntry(value: 4, label: '4'),
-                    DropdownMenuEntry(value: 5, label: '5'),
                   ],
                 ),
               ],
