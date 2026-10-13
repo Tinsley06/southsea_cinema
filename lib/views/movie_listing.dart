@@ -31,6 +31,7 @@ class _MovieListingState extends State<MovieListing> {
       ),
       drawer: const NavDrawer(),
       body: Container(
+        padding: EdgeInsetsGeometry.all(50),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
