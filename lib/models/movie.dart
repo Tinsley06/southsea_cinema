@@ -17,3 +17,5 @@ class Movie {
     required this.poster_image_path,
   });
 }
+
+
