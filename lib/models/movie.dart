@@ -4,7 +4,7 @@ class Movie {
   final String synopsis;
   final String age_rating;
   final String screening_time;
-  final String ticket_price;
+  final double ticket_price;
   final String poster_image_path;
 
   Movie({
@@ -17,5 +17,3 @@ class Movie {
     required this.poster_image_path,
   });
 }
-
-
