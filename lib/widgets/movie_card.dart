@@ -20,7 +20,7 @@ class MovieCard extends StatelessWidget {
               children: [
                 Image.asset(
                   movie.poster_image_path,
-                  width: 80,
+                  width: 60,
                   height: 80,
                   fit: BoxFit.cover,
                 ),
