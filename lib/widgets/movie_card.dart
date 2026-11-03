@@ -24,6 +24,29 @@ class MovieCard extends StatelessWidget {
                   height: 80,
                   fit: BoxFit.cover,
                 ),
+                const SizedBox(width: 16.0),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        movie.title,
+                        style: const TextStyle(
+                          fontSize: 18.0,
+                          color: Colors.black,
+                        ),
+                      ),
+                      const SizedBox(height: 8.0),
+                      Text(
+                        movie.synopsis,
+                        style: const TextStyle(
+                          fontSize: 14.0,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
           ],
