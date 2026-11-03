@@ -61,6 +61,7 @@ flutter:
   assets:
     - assets/images/fast_and_furious.jpg
     - assets/images/ali_g.jpg
+    - assets/images/avengers_endgame.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
